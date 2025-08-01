@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>For only you</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Màn hình bắt đầu -->
+<div id="startScreen">
+  <h2>For only you</h2>
+  <button onclick="startStory()">Click</button>
+</div>
+
+<!-- Nội dung chính -->
+<div id="mainContent" style="display: none;">
+  <div id="container">
+    <div class="slide active">
+      <p>Cũng đã hơn ba tháng rồi em không nhắn gì cho chị. 
+        Em biết chị đã gỡ hết mọi thứ trên Facebook — lần thứ hai.</p>
+    </div>
+    <div class="slide">
+      <p>Trước đây, chị cũng từng làm như vậy, xoá sạch mọi thứ trên Facebook và Instagram. Nhưng lúc đó thay vì hỏi chị lý do, em lại chọn cách im lặng. Đến giờ em vẫn không hiểu vì sao mình lại làm vậy.</p>
+    </div>
+    <div class="slide">
+      <p>Nhưng mà, dù chị có vui hay buồn, thì em vẫn luôn thích chị và thích chị ở mọi phiên bản.</p>
+    </div>
+    <div class="slide">
+      <p>Cuối cùng, chỉ mong chị luôn ở phiên bản hạnh phúc nhất, vui vẻ nhất, cái phiên bản mà mỗi ngày đăng 7749 cái story vô tri trên TikTok.</p>
+    </div>
+    <div class="slide">
+      <p>Nếu chị đã đọc đến đây rồi, thì cho em cảm ơn vì đã đọc mấy lời linh tinh này. Em sẽ không nhắn gì thêm đâu. Em chỉ tiếc là mình đã không nói ra sớm hơn. Nhưng chắc vậy là đủ rồi.</p>
+      <p style="opacity: 0.6; font-size: 0.9em;">— Một người đã từng rất thương cậu.</p>
+    </div>
+    <button id="nextBtn">Next</button>
+  </div>
+</div>
+
+<!-- Nhạc nền -->
+<audio id="bgMusic" autoplay loop>
+  <source src="MISSING_YOU.mp3" type="audio/mpeg">
+</audio>
+
+<div class="fade-music">
+  * Nhạc nền: sad.mp3
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
